@@ -1,0 +1,16 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.sqlite
+reports/agent_review.md
+reports/agent_review.meta.json
+reports/jev_review.json
+reports/review_status.json
+reports/runs/
+reports/index.html

@@ -1,0 +1,7 @@
+segment,recency_group,assigned_users,conversion_rate,revenue_per_assigned_user
+Mens E-Mail,Purchased 7-12 months ago,9165,0.010474631751227497,1.170911074740862
+No E-Mail,Purchased 7-12 months ago,9102,0.0031861129422105033,0.48514062843331135
+Womens E-Mail,Purchased 7-12 months ago,9148,0.006886751202448623,0.8372835592479231
+Mens E-Mail,Purchased within 6 months,12142,0.014083347059792455,1.6126083017624775
+No E-Mail,Purchased within 6 months,12204,0.007620452310717798,0.7778253031792854
+Womens E-Mail,Purchased within 6 months,12239,0.010294958738459025,1.2565274940763134

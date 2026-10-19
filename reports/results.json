@@ -1,0 +1,76 @@
+{
+  "source_url": "https://www.minethatdata.com/Kevin_Hillstrom_MineThatData_E-MailAnalytics_DataMiningChallenge_2008.03.20.csv",
+  "source_sha256": "00a6a868e05a9ffe7382da51629f6d6dce88c5acfc945e79d314ebc78fd3a2c0",
+  "analysis_type": "retrospective randomized experiment case study",
+  "quality": {
+    "rows": 64000,
+    "group_counts": {
+      "Mens E-Mail": 21307,
+      "No E-Mail": 21306,
+      "Womens E-Mail": 21387
+    },
+    "allocation_expected": "equal thirds, based on publisher description",
+    "allocation_p_value": 0.9036929575604196,
+    "allocation_warning": false,
+    "repeated_complete_rows_retained": 6562,
+    "schema_and_outcome_checks": "passed",
+    "limitations": [
+      "Historical 2008 experiment; no current-market performance claim.",
+      "No original customer IDs or assignment logs; contamination cannot be checked.",
+      "No campaign costs, margins, cancellations, delivery or unsubscribe data.",
+      "Repeated rows may represent different customers and are retained."
+    ],
+    "source_provenance": "matches saved manifest",
+    "sql_python_reconciliation": "passed"
+  },
+  "comparisons": [
+    {
+      "campaign": "Mens E-Mail",
+      "control": "No E-Mail",
+      "treatment_users": 21307,
+      "control_users": 21306,
+      "treatment_conversion_rate": 0.01253109306800582,
+      "control_conversion_rate": 0.005726086548390125,
+      "absolute_lift_percentage_points": 0.6805006519615695,
+      "relative_lift_percent": 118.84218762863279,
+      "conversion_ci_percentage_points": [
+        0.47410081830608597,
+        0.886900485617053
+      ],
+      "raw_p_value": 1.5232235005955427e-13,
+      "bonferroni_adjusted_p_value": 3.0464470011910854e-13,
+      "individual_ci_level": 0.975,
+      "revenue_difference_per_assigned_user": 0.7698271558945368,
+      "revenue_difference_ci": [
+        0.44425774946535,
+        1.0953965623237236
+      ],
+      "positive_conversion_evidence_before_quality_gate": true,
+      "positive_conversion_evidence": true
+    },
+    {
+      "campaign": "Womens E-Mail",
+      "control": "No E-Mail",
+      "treatment_users": 21387,
+      "control_users": 21306,
+      "treatment_conversion_rate": 0.008837144059475383,
+      "control_conversion_rate": 0.005726086548390125,
+      "absolute_lift_percentage_points": 0.3111057511085258,
+      "relative_lift_percent": 54.33130436982172,
+      "conversion_ci_percentage_points": [
+        0.12671500398781052,
+        0.4954964982292411
+      ],
+      "raw_p_value": 0.00015710512910668448,
+      "bonferroni_adjusted_p_value": 0.00031421025821336897,
+      "individual_ci_level": 0.975,
+      "revenue_difference_per_assigned_user": 0.4244122159365967,
+      "revenue_difference_ci": [
+        0.1322728103197841,
+        0.7165516215534093
+      ],
+      "positive_conversion_evidence_before_quality_gate": true,
+      "positive_conversion_evidence": true
+    }
+  ]
+}
